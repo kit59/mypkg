@@ -1,19 +1,16 @@
-# plusコマンド
-![test](https://github.com/kit59/robosys2023/actions/workflows/test.yml/badge.svg)
+# 
+![test](https://github.com/kit59/mypkg/actions/workflows/test.yml/badge.svg)
 
-標準入力から読み込んだ数字を足す。
+
 
 ## Quick trial
 ```
-$ seq 3 | ./plus
-6
-$ seq 6 | ./plus
-21
+$ 
 ```
 
 ## Install
 ```
-git clone git@github.com:kit59/robosys2023.git
+git clone https://github.com/kit59/mypkg.git
 ```
 
 ## 必要なソフトウェア
@@ -26,6 +23,8 @@ git clone git@github.com:kit59/robosys2023.git
 ## Licence
 * このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます 
 * このパッケージのコードは, 下記のスライド (CC-BY-SA 4.0 by Ryuichi Ueda) のものを, 本人の許可を得て自身の著作としたものです.
+    * [ryuichiueda/my_slides robosys_2022 lesson4.md](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
+    * [ryuichiueda/my_slides robosys_2022 lesson4.md](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
     * [ryuichiueda/my_slides robosys_2022 lesson4.md](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
 * © 2023 Kaito Akiyama
 
