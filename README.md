@@ -1,11 +1,26 @@
-# 
+# talk_listen.launch.py
 ![test](https://github.com/kit59/mypkg/actions/workflows/test.yml/badge.svg)
 
 
 
 ## Quick trial
 ```
-$ 
+$ ros2 launch mypkg talk_listen.launch.py
+[INFO] [launch]: All log files can be found below /home/kaito/.ros/log/2023-12-28-19-09-52-562601-Zora-5631
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [5633]
+[INFO] [listener-2]: process started with pid [5635]
+[listener-2] [INFO] [1703758193.644899645] [listener]: Listen: 0
+[listener-2] [INFO] [1703758194.068820229] [listener]: Listen: 1
+[listener-2] [INFO] [1703758194.567895246] [listener]: Listen: 2
+[listener-2] [INFO] [1703758195.068341674] [listener]: Listen: 3
+[listener-2] [INFO] [1703758195.568211421] [listener]: Listen: 4
+[listener-2] [INFO] [1703758196.068853344] [listener]: Listen: 5
+[listener-2] [INFO] [1703758196.571035567] [listener]: Listen: 6
+[listener-2] [INFO] [1703758197.068374590] [listener]: Listen: 7
+[listener-2] [INFO] [1703758197.570615760] [listener]: Listen: 8
+[listener-2] [INFO] [1703758198.068581181] [listener]: Listen: 9
+[listener-2] [INFO] [1703758198.568583861] [listener]: Listen: 10 
 ```
 
 ## Install
