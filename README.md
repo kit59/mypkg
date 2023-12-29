@@ -1,9 +1,11 @@
-# talk_listen.launch.py
+# mypkg
 ![test](https://github.com/kit59/mypkg/actions/workflows/test.yml/badge.svg)
 
+ロボットシステム学のROS2練習用リポジトリ
 
-
-## Quick trial
+## talk_listen.launch.py 
+launchというディレクトリ内に存在。
+下記のように実行することでtalker.pyとlistener.pyを通信させデータのやり取りをする事が可能。
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 [INFO] [launch]: All log files can be found below /home/kaito/.ros/log/2023-12-28-19-09-52-562601-Zora-5631
