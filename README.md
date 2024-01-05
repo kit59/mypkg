@@ -13,6 +13,7 @@ git clone https://github.com/kit59/mypkg.git
 ## talker.pyとlistener.py
 mypkgというディレクトリ内に存在。
 別々の端末でそれぞれを同時に実行することでデータのやり取りをすることが可能。
+
 ＊ 端末１
 ```
 $ ros2 run mypkg talker
