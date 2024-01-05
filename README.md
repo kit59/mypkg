@@ -14,12 +14,12 @@ git clone https://github.com/kit59/mypkg.git
 mypkgというディレクトリ内に存在。
 別々の端末でそれぞれを同時に実行することでデータのやり取りをすることが可能。
 
-＊ 端末１
+* 端末１
 ```
 $ ros2 run mypkg talker
 
 ```
-＊ 端末２
+* 端末２
 ```
 $ ros2 run mypkg listener
 [INFO] [1704445484.918310094] [listener]: Listen: 34
@@ -55,7 +55,6 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 ## 必要なソフトウェア
 * Python
-  * テスト済み: 3.7～3.10
 * ROS2
 
 ## テスト環境
