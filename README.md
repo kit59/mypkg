@@ -2,10 +2,37 @@
 ![test](https://github.com/kit59/mypkg/actions/workflows/test.yml/badge.svg)
 
 ロボットシステム学のROS2練習用リポジトリ
+2つのノード間でデータのやり取りをすることが可能。
+
+## Install
+下記のコマンドでインストールが可能。
+```
+git clone https://github.com/kit59/mypkg.git
+```
+
+## talker.pyとlistener.py
+mypkgというディレクトリ内に存在。
+別々の端末でそれぞれを同時に実行することでデータのやり取りをすることが可能。
+＊ 端末１
+```
+$ ros2 run mypkg talker
+
+```
+＊ 端末２
+```
+$ ros2 run mypkg listener
+[INFO] [1704445484.918310094] [listener]: Listen: 34
+[INFO] [1704445485.240505762] [listener]: Listen: 35
+[INFO] [1704445485.740568980] [listener]: Listen: 36
+[INFO] [1704445486.240195427] [listener]: Listen: 37
+[INFO] [1704445486.740310432] [listener]: Listen: 38
+[INFO] [1704445487.240282664] [listener]: Listen: 39
+[INFO] [1704445487.740375605] [listener]: Listen: 40
+```
 
 ## talk_listen.launch.py 
 launchというディレクトリ内に存在。
-下記のように実行することでtalker.pyとlistener.pyを通信させデータのやり取りをする事が可能。
+下記のように実行することで１つの端末でtalker.pyとlistener.pyを通信させデータのやり取りをする事が可能。
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 [INFO] [launch]: All log files can be found below /home/kaito/.ros/log/2023-12-28-19-09-52-562601-Zora-5631
@@ -25,14 +52,10 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703758198.568583861] [listener]: Listen: 10 
 ```
 
-## Install
-```
-git clone https://github.com/kit59/mypkg.git
-```
-
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7～3.10
+* ROS2
 
 ## テスト環境
 * Ubuntu 22.04 on Windows
