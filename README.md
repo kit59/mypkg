@@ -1,7 +1,7 @@
 # mypkg
 ![test](https://github.com/kit59/mypkg/actions/workflows/test.yml/badge.svg)
 
-ロボットシステム学のROS2練習用リポジトリ
+ロボットシステム学のROS2練習用リポジトリ。
 2つのノード間でデータのやり取りをすることが可能。
 
 ## Install
